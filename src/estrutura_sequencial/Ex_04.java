@@ -21,6 +21,7 @@ public class Ex_04 {
 
         System.out.print("Digite o valor por hora trabalhada: ");
         double valor_por_hora = sc.nextDouble();
+        sc.close();
 
         double salario = horas_trabalhadas * valor_por_hora;
         System.out.printf("Funcionario: %d\n" +

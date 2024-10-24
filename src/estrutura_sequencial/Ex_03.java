@@ -20,6 +20,7 @@ segundo a fórmula: DIFERENCA = (A * B - C * D).
         int C = sc.nextInt();
         System.out.print("Digite o valor de D: ");
         int D = sc.nextInt();
+        sc.close();
 
         int diferenca = (A * B - C * D);
         System.out.printf("A diferença do produto de A e B pelo produto de C e D é: %d", diferenca);
